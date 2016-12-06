@@ -2,6 +2,7 @@ import webbrowser
 
 
 class Movie():
+    """Creates the instance of the movie"""
     def __init__ (self, movie_title, movie_storyline, poster_image, trailer_youtube):
         self.title = movie_title
         self.storyline = movie_storyline
